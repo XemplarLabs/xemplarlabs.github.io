@@ -143,6 +143,19 @@ a {
   align-items: center;
 }
 
+.animate-hidden {
+  opacity: 0;
+  filter: blur(10px);
+  transform: translateY(100%) scale(0.9);
+}
+
+.animate-shown {
+  opacity: 1;
+  filter: blur(0);
+  transition: all 1.5s;
+  transform: translateY(0);
+}
+
 @media screen and (max-width: 1000px) {
   :root {
     --m: 3rem;

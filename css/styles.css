@@ -36,6 +36,10 @@ h3 {
   margin: 0;
 }
 
+#top-section {
+  padding-top: 2rem;
+}
+
 button {
   background-color: #000;
   font-size: calc(0.4 * var(--m));
@@ -146,10 +150,10 @@ a {
 .animate-hidden {
   opacity: 0;
   filter: blur(10px);
-  transform: translateY(100%) scale(0.9);
+  transform: translateY(20%);
 }
 
-.animate-shown {
+.animate-shown{
   opacity: 1;
   filter: blur(0);
   transition: all 1.5s;
